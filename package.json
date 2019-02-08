@@ -1,0 +1,8 @@
+{
+  "name": "acidd3.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/acidd3/acidd3.github.io",
+  "author": "acidd3 <acidd3@mail.ru>",
+  "license": "MIT"
+}

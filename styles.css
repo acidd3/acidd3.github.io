@@ -1,0 +1,22 @@
+.b-logo {
+width: 200px; 
+height: 200px;
+border-radius: 50%;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+position: relative;
+text-align: center;
+}
+
+.b-circle{
+position: absolute;
+width: 175px; 
+height: 175px;
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin:0 auto;
+background-color: blue; 
+border-radius: 50%;
+}
