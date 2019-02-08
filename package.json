@@ -4,5 +4,16 @@
   "main": "index.js",
   "repository": "https://github.com/acidd3/acidd3.github.io",
   "author": "acidd3 <acidd3@mail.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0"
+  }
 }
