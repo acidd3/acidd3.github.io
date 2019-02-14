@@ -1,22 +1,60 @@
-.b-fullname__circle {
-width: 200px; 
-height: 200px;
+@font-face  {
+    font-family: MyriadPro;
+    src: url(./fonts/MyriadPro-Bold.ttf);
+}
+@font-face  {
+    font-family: MyriadProLight;
+    src: url(./fonts/MyriadPro-LightSemiExtIt.ttf);
+}
+
+
+
+.b-logo__circle {
+width: 465px; 
+height: 465px;
 border-radius: 50%;
-border-color: black;
+border-color: #3d6cb0;
 border-style: solid;
 border-width: 1px;
 position: relative;
 text-align: center;
 }
 
-.b-fullname__avatar{
+.b-logo__avatar{
 position: absolute;
-width: 175px; 
-height: 175px;
+width: 405px; 
+height: 405px;
 top:50%;
 left: 50%;
 transform: translate(-50%, -50%);
 margin:0 auto;
-background-color: blue; 
+background-color: #3d6cb0; 
 border-radius: 50%;
+}
+
+.b-head__logo{
+    margin-left: 310px;
+    margin-top: 175px;
+    
+}
+
+h1 {
+    font-family: MyriadPro;
+    font-size: 123px;
+    line-height: 10px;
+    margin-left: 260px;
+}
+h2 {
+    font-family: MyriadProLight;
+    font-size: 121px;
+    line-height: 1px;
+    margin-left: 260px;
+    margin-top: 112px;
+}
+h3 {
+    font-family: MyriadPro;
+    font-size: 50px;
+    line-height: 1px;
+    margin-left: 330px;
+    margin-top: 95px;
 }

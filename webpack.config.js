@@ -5,6 +5,7 @@ const pug = require('./webpack/pug');
 const devserver = require('./webpack/devserver');
 const sass = require('./webpack/sass');
 const css = require('./webpack/css');
+const fonts = require('./webpack/fonts');
 
 
 
@@ -41,7 +42,8 @@ module.exports = function(env) {
             common,
             devserver(),
             css(),
-            sass() 
+            sass(),
+            fonts() 
             )
     }
 };
